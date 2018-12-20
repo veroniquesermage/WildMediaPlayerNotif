@@ -23,6 +23,8 @@
             </intent-filter>
         </activity>
         <receiver android:name="fr.wildcodeschool.mediaplayer.MediaButtonReceiver" />
+        <service android:name=".MediaPlayerService"
+            android:label="Media Player Service"/>
     </application>
 
 </manifest>
